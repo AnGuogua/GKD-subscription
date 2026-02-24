@@ -4,12 +4,15 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
-  id: 233,
-  name: 'Subscription',
+  id: 1,
+  name: 'Guogua的GKD订阅',
   version: 0,
-  author: 'author',
-  checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
+  author: 'Guogua',
+  checkUpdateUrl:
+    'https://raw.githubusercontent.com/AnGuogua/GKD-subscription/main/dist/gkd.json5',
+  updateUrl:
+    'https://raw.githubusercontent.com/AnGuogua/GKD-subscription/main/dist/gkd.version.json5',
+  supportUri: 'https://github.com/AnGuogua/GKD-subscription/',
   categories,
   globalGroups,
   apps: await batchImportApps(`${import.meta.dirname}/apps`),
