@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '飞常准业内版',
   groups: [
     {
-      key: 8,
+      key: 0,
       name: '分段广告-关闭应用内广告',
       desc: '自动关闭',
       rules: [
@@ -24,7 +24,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 0,
+      key: 1,
       name: '开屏广告-跳过开屏广告',
       desc: '适用于跳过按钮在下方的情况',
       matchTime: 10000,

@@ -5,28 +5,6 @@ export default defineGkdApp({
   name: '美团',
   groups: [
     {
-      key: 5,
-      name: '权限提示-消息页打开通知提醒',
-      desc: '自动关闭横幅',
-      fastQuery: true,
-      rules: {
-        activityIds: 'com.meituan.android.pt.homepage.activity.MainActivity',
-        matches:
-          '@ImageView <4 ViewGroup <5 FrameLayout < FrameLayout <3 FrameLayout <2 LinearLayout < FrameLayout < RelativeLayout < FrameLayout < [vid="container"]',
-        snapshotUrls: 'https://i.gkd.li/i/25505938',
-      },
-    },
-    {
-      key: 5,
-      name: '权限提示-关闭通知弹窗',
-      fastQuery: true,
-      rules: {
-        activityIds: 'com.meituan.android.pt.homepage.activity.MainActivity',
-        matches: '[vid="later"]',
-        snapshotUrls: 'https://i.gkd.li/i/25505958',
-      },
-    },
-    {
       key: 1,
       name: '更新提示',
       fastQuery: true,
@@ -345,6 +323,18 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/17182888',
         },
       ],
+    },
+    {
+      key: 14,
+      name: '权限提示-消息页打开通知提醒',
+      desc: '自动关闭横幅',
+      fastQuery: true,
+      rules: {
+        activityIds: 'com.meituan.android.pt.homepage.activity.MainActivity',
+        matches:
+          '@ImageView <4 ViewGroup <5 FrameLayout < FrameLayout <3 FrameLayout <2 LinearLayout < FrameLayout < RelativeLayout < FrameLayout < [vid="container"]',
+        snapshotUrls: 'https://i.gkd.li/i/25505938',
+      },
     },
   ],
 });

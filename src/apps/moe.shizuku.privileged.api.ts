@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: 'Shizuku',
   groups: [
     {
-      key: 9,
+      key: 1,
       name: '功能类-自动激活(无线调试)',
       desc: '当Shizuku未激活时，自动以无线调试激(需打开一个端口)',
       activityIds: 'moe.shizuku.manager.MainActivity',
