@@ -574,5 +574,13 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 23,
+      name: '通知提示-小窗模式提醒',
+      desc: '自动关闭提醒条',
+      rules: {
+        matches: '[vid="common_dialog_nagetive_btn"]',
+      },
+    },
   ],
 });
