@@ -32,6 +32,14 @@ export default defineGkdApp({
           action: 'clickCenter', // clickNode无响应
           snapshotUrls: 'https://i.gkd.li/i/12727070',
         },
+        {
+          fastQuery: true,
+          action: 'clickCenter',
+          activityIds: 'com.dianping.v1.NovaMainActivity',
+          matches:
+            '@ImageView <2 FrameLayout[childCount=3] + FrameLayout[childCount=3] > TextView[text*="通知"]',
+          snapshotUrls: 'https://i.gkd.li/i/25511106',
+        },
       ],
     },
     {
@@ -108,6 +116,15 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/i/23289239',
         },
       ],
+    },
+    {
+      key: 7,
+      name: '权限提示-首页横幅索取位置',
+      desc: '点击X',
+      rules: {
+        matches: '[vid="main_home_location_notice_close"]',
+        snapshotUrls: 'https://i.gkd.li/i/25510998',
+      },
     },
   ],
 });
