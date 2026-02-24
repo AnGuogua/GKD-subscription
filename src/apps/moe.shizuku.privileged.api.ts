@@ -27,7 +27,7 @@ export default defineGkdApp({
           key: 1,
           preKeys: [0],
           name: '点击端口号',
-          matches: '[id="android:id/button3"][text~="\\d{4}"]',
+          matches: '[id="android:id/button3"][text~="\\\\d{4}"]',
         },
         {
           key: 3,
