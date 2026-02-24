@@ -20,8 +20,13 @@
 
 ## 订阅
 
+**以下链接任选一个！**
 ``` 
 https://raw.githubusercontent.com/AnGuogua/GKD-subscription/main/dist/gkd.json5
+https://fastly.jsdelivr.net/gh/AnGuogua/GKD-subscription@main/dist/gkd.json5
+https://gh-proxy.org/https://raw.githubusercontent.com/AnGuogua/GKD-subscription/main/dist/gkd.json5
+https://hk.gh-proxy.org/https://raw.githubusercontent.com/AnGuogua/GKD-subscription/main/dist/gkd.json5
+https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/AnGuogua/GKD-subscription/main/dist/gkd.json5
 ```
 
 TODO
