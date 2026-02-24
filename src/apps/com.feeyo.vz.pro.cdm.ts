@@ -8,6 +8,10 @@ export default defineGkdApp({
       key: 0,
       name: '分段广告-关闭应用内广告',
       desc: '自动关闭',
+      snapshotUrls: [
+        'https://i.gkd.li/i/25510281',
+        'https://i.gkd.li/i/25510296',
+      ],
       rules: [
         {
           key: 0,
